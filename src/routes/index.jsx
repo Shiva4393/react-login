@@ -1,5 +1,5 @@
-import Login from "../components/login/Login";
-import Register from '../components/login/Register';
+import Login from "../views/LoginPage/LoginPage";
+import Register from '../views/RegisterPage/RegisterPage';
 
 const indexRoutes = [
     { path: "/", component: Login },

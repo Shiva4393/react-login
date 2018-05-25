@@ -5,7 +5,7 @@ import {
     Icon
 } from '@material-ui/core';
 
-class Register extends React.Component {
+class RegisterPage extends React.Component {
     render() {
         return (
             <div>
@@ -16,4 +16,4 @@ class Register extends React.Component {
     }
 }
 
-export default Register;
+export default RegisterPage;

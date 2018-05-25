@@ -23,7 +23,7 @@ const styles = theme => ({
     },
 });
 
-class Login extends React.Component {
+class LoginPage extends React.Component {
     state = {
         name: 'Shiva Kumar Kudikala',
     };
@@ -41,9 +41,9 @@ class Login extends React.Component {
         })
     }*/
 
-    render(){
+    render() {
         const { classes } = this.props;
-        return(
+        return (
             <Grid container justify="center">
                 <Grid item xs={3}>
                     <Card>
@@ -79,8 +79,8 @@ class Login extends React.Component {
     }
 }
 
-Login.propTypes = {
+LoginPage.propTypes = {
     classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Login);
+export default withStyles(styles)(LoginPage);

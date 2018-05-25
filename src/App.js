@@ -9,7 +9,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import logo from './logo.svg';
 import './App.css';
 
-import indexRoutes from "./routes/index";
+import indexRoutes from "./routes/index.jsx";
 
 const hist = createBrowserHistory();
 

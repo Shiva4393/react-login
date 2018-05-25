@@ -10,9 +10,9 @@ import theme from './theme/custom-theme';
 
 ReactDOM.render(
     <MuiThemeProvider theme={theme}>
-    <BrowserRouter>
-        <App />
-    </BrowserRouter>
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
     </MuiThemeProvider>
 , document.getElementById('root'));
 registerServiceWorker();
